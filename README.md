@@ -52,7 +52,7 @@ A summary of the access policies in place can be found in the table below.
 |  DVWA2    |    no               | 10.0.0.7            |
 |  DVWA3    |    no               | 10.0.0.8            |
 |  DVWA4    |    no               | 10.0.0.9            |
-| elkserver |    no               | 10.0.0.5            |
+| Elkserver |    no               | 10.0.0.5            |
 
 ### Elk Configuration
 
