@@ -68,7 +68,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-(Ansible%Images/Docker%PS.png)
+(https://github.com/spatzmic/Cloud-Security/blob/master/Ansible%20Images/DockerPS.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines: ()priv ip add of dvwa()
