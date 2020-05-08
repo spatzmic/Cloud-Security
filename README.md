@@ -69,31 +69,22 @@ The playbook implements the following tasks:
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
 ![docker ps](Ansible_Images/DockerPS.png)
-(https://github.com/spatzmic/Cloud-Security/blob/master/Ansible-Images/DockerPS.png?raw=true)
+
 
 ### Target Machines & Beats
-This ELK server is configured to monitor the following machines: ()priv ip add of dvwa()
-- _TODO: List the IP addresses of the machines you are monitoring_
+This ELK server is configured to monitor the following machines: **10.0.0.6, 10.0.0.7, 10.0.0.8, 10.0.0.9**
 
-We have installed the following Beats on these machines:
-- _TODO: Specify which Beats you successfully installed_ ()Filebeat, Metricbeat()
+We have installed the following Beats on these machines: **Filebeat, Metricbeat**
 
-These Beats allow us to collect the following information from each machine:
-- _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._ ()Filebeat collects log files.  Metricbeat collects system metrics such as uptime()
+These Beats allow us to collect the following information from each machine: **Filebeat collects log files, event logs.  Metricbeat collects system metrics such as uptime.**
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the _ansible.cfg____ file to _/etc/ansible___.
-- Update the __ansible.cfg file___ file to include the remote user and update the host file to include the webserver and elkserver...
-- Run the playbook, and navigate to _elkserver public ip with port 5601__ to check that the installation worked as expected.
+- Copy the [ansible.cfg](https://github.com/spatzmic/Cloud-Security/blob/master/ansible.cfg) file to **/etc/ansible**.
+- Update the **ansible.cfg** file to include the remote user and update the host file to include the webserver and elkserver.
+- Run the playbook, and navigate to **40.117.126.185:5601** to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it?_ playbook.yml to /etc/ansible
-- _Which file do you update to make Ansible run the playbook on a specific machine?  The host File. How do I specify which machine to install the ELK server on versus which to install Filebeat on?_ private Ip from elkservers and webservers
-- _Which URL do you navigate to in order to check that the ELK server is running?
-
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
-
-ansible-playbook elkinstall.yml
+Download playbook: 
+[elk1.yml](https://github.com/spatzmic/Cloud-Security/blob/master/elk1.yml)
