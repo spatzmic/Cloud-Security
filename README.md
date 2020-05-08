@@ -21,9 +21,7 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 
 Load balancing ensures that the application will be highly **redundant**, in addition to restricting **unauthorized access** to the network.
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the __filelogs, event logs___ and system __()metrics?()___.
-- _TODO: What does Filebeat watch for?_
-- _TODO: What does Metricbeat record?_
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the **filelogs, event logs** and **system metrics**.
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
