@@ -26,31 +26,33 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
-| Name     | Function | IP Address | Operating System |
-|----------|----------|------------|------------------|
-| Jump Box | Gateway  | 10.0.0.1   | ub severs         |
-| DVWA1    |  Ws        |            |     ub             |
-| DVWA2    |   Ws       |            |     ub             |
-| ElkServer|    elkserver      |            |   ub servers               |
+| Name     | Function  | IP Address | Operating System |
+|----------|-----------|------------|------------------|
+| Jump Box | Gateway   | 10.0.0.4   | ubuntu severs    |
+| DVWA1    | Webserver | 10.0.0.6   | ubuntu servers   |
+| DVWA2    | Webserver | 10.0.0.7   | ubuntu servers   |
+| DVWA3    | Webserver | 10.0.0.8   | ubuntu servers   |
+| DVWA4    | Webserver | 10.0.0.9   | ubuntu serves    |
+| ElkServer| Elkserver | 10.0.0.5   | ubuntu servers   |
 
 ### Access Policies
 
 The machines on the internal network are not exposed to the public Internet. 
 
-Only the _jumpbox  ____ machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses: MY IP 
-- _TODO: Add whitelisted IP addresses_
+Only the **Jumpbox** machine can accept connections from the Internet.  Access to this machine is only allowed from the following IP addresses: **99.240.221.*** ** 
 
-Machines within the network can only be accessed by __()Jumpbox() jb private ip address ___.
-- _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
+Machines within the network can only be accessed by the **Jumpbox 10.0.0.4**
 
 A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
-|----------|---------------------|----------------------|
-| Jump Box | no             | my public ip    |
-|  dvwa1        |    no                 |         pri ip             |
-|  dvwa2      no
-| elkserver    |      no                |
+|-----------|---------------------|---------------------|
+| Jump Box  |    no               | 99.240.221.***      |
+|  DVWA1    |    no               | 10.0.0.6            |
+|  DVWA2    |    no               | 10.0.0.7            |
+|  DVWA3    |    no               | 10.0.0.8            |
+|  DVWA4    |    no               | 10.0.0.9            |
+| elkserver |    no               | 10.0.0.5            |
 
 ### Elk Configuration
 
