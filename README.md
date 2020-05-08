@@ -68,7 +68,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![docker ps](Ansible Images/DockerPS.png)
+![docker ps](Ansible-Images/DockerPS.png)
 (https://github.com/spatzmic/Cloud-Security/blob/master/Ansible-Images/DockerPS.png?raw=true)
 
 ### Target Machines & Beats
