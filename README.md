@@ -26,14 +26,14 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 The configuration details of each machine may be found below.
 
 
-| Name     | Function  | IP Address | Operating System |
-|----------|-----------|------------|------------------|
-| Jump Box | Gateway   | 10.0.0.4   | ubuntu severs    |
-| DVWA1    | Webserver | 10.0.0.6   | ubuntu servers   |
-| DVWA2    | Webserver | 10.0.0.7   | ubuntu servers   |
-| DVWA3    | Webserver | 10.0.0.8   | ubuntu servers   |
-| DVWA4    | Webserver | 10.0.0.9   | ubuntu serves    |
-| ElkServer| Elkserver | 10.0.0.5   | ubuntu servers   |
+| Name     | Function  | IP Address   | Operating System          |
+|----------|-----------|--------------|---------------------------|
+| Jump Box | Gateway   | 10.0.0.4     | Ubuntu 18.04 Server LTS   |
+| DVWA1    | Webserver | 10.0.0.6     | Ubuntu 18.04 Server LTS   |
+| DVWA2    | Webserver | 10.0.0.7     | Ubuntu 18.04 Server LTS   |
+| DVWA3    | Webserver | 10.0.0.8     | Ubuntu 18.04 Server LTS   |
+| DVWA4    | Webserver | 10.0.0.9     | Ubuntu 18.04 Server LTS   |
+| ElkServer| Elkserver | 10.0.0.5     | Ubuntu 18.04 Server LTS   |
 
 ### Access Policies
 
