@@ -39,7 +39,7 @@ The configuration details of each machine may be found below.
 
 The machines on the internal network are not exposed to the public Internet. 
 
-Only the **Jumpbox** machine can accept connections from the Internet.  Access to this machine is only allowed from the following IP addresses: **99.240.221.*** ** 
+Only the **Jumpbox** machine can accept connections from the Internet.  Access to this machine is only allowed from the following IP addresses: **99.240.***.*** ** 
 
 Machines within the network can only be accessed by the **Jumpbox 10.0.0.4**
 
@@ -47,7 +47,7 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |-----------|---------------------|---------------------|
-| Jump Box  |    no               | 99.240.221.***      |
+| Jump Box  |    no               | 99.240.***.***      |
 |  DVWA1    |    no               | 10.0.0.6            |
 |  DVWA2    |    no               | 10.0.0.7            |
 |  DVWA3    |    no               | 10.0.0.8            |
